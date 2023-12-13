@@ -96,7 +96,7 @@ class WeatherFragment : Fragment() {
                     } else {
                         Snackbar.make(
                             binding.root,
-                            "Something went wrong. Please try again.",
+                            "City not found.",
                             Snackbar.LENGTH_SHORT
                         ).show()
                     }
